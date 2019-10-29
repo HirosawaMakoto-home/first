@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="shift_jis"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="ja" lang="ja">
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-55134782-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-55134782-2');
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+
+<title>ふらふら日記</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.dropdown.js"></script>
+
+<script>
+$(document).ready(function() {
+
+    $('#navi').dropdown({
+    	animateDirection	: 'x',
+    	textClass     : 'arrow',
+		textOpenClass : 'open'
+    });
+
+	// hide #back-top first
+	$('#back-top').hide();
+	
+	// fade in #back-top
+	$(function () {
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 100) {
+				$('#back-top').fadeIn();
+			} else {
+				$('#back-top').fadeOut();
+			}
+		});
+
+		// scroll body to 0px on click
+		$('#back-top a').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+	});
+});
+
+</script>
+</head>
+
+<body id="top">
+<div id="site-box">
+
+<div id="header">
+<h1 id="logo"><span id="freeClimbing">Free Climbing</span><span id="hurahura">日記</span></h1>
+
+<!--%start%navi-->
+<ul id="navi">
+    <li><a href="index.html">トップページ</a>
+        <ul>
+            <li><a href="v2Mail.html">お問い合わせなど</a></li>
+        </ul>
+    </li>
+    <li><a href="v2Nikki2019.html">ふらふら日記</a>
+        <ul>
+            <li><a href="v2Nikki2018.html">2018年の日記</a></li>
+            <li><a href="v2Nikki2017.html">2017年の日記</a></li>
+            <li><a href="v2Nikki2016.html">2016年の日記</a></li>
+            <li><a href="v2NikkiLink.html">目的別リンク集</a></li>
+        </ul>
+    </li>
+    <li><a href="#">エリア紹介</a>
+        <ul>
+            <li><a href="v2Ooyama.html">大山</a></li>
+            <li><a href="v2NisiTanzawa.html">西丹沢</a></li>
+            <li><a href="v2HigasiTanzawa.html">東丹沢</a></li>
+            <li><a href="v2Izu.html">伊豆</a></li>
+            <li><a href="v2Hakone.html">箱根</a></li>
+            <li><a href="v2Hujisan.html">富士山周辺</a></li>
+            <li><a href="v2Okutitibu.html">奥秩父</a></li>
+            <li><a href="v2Yatugatake.html">八ヶ岳</a></li>
+            <li><a href="v2MinamiAlps.html">南アルプス</a></li>
+            <li><a href="v2Dousi.html">道志</a></li>
+        </ul>
+    </li>
+    <li><a href="v2TrailJog2019.html">トレジョグ</a>
+        <ul>
+            <li><a href="v2TrailJog2018.html">2018年</a></li>
+            <li><a href="v2TrailJog2017.html">2017年</a></li>
+            <li><a href="v2TrailJog2016.html">2016年</a></li>
+        </ul>
+    </li>
+    <li class="last-child"><a href="http://www6.plala.or.jp/hurahuranikki/index_old.html">昔のふらふら日記</a></li>
+</ul>
+<!--%end%navi-->
+
+</div>
+
+
+<!-- 本文 -->
+<div id="main">
+<h4>&nbsp;</h4> <!-- blockを終わりにする方法があればそれを使うこと -->
+
+
+<h2>南アルプス</h2>
+<p>暑い季節は高い所でジョグして涼しく過ごしましょう。</p>
+
+<h3>奈良田温泉⇔農鳥岳</h3>
+<p>農鳥岳付近の稜線からの眺めと、大古森沢から尾根を越えるまでの静かな森が素晴らしい。
+トレランにはまったく適さず、標高差が2200m近くあり、少し体力が必要です。</p>
+<ul>
+  <li>2018/09/23: 奈良田温泉P→大門沢登山道入り口(0:33)→1:26→大門沢小屋(1:59)→1:47→大門沢下降点(3:46)→27→農鳥岳(4:13-30)
+                  →14→大門沢下降点(4:44)→1:01→大門沢小屋(5:45)→1:20→奈良田温泉P(7:05)</li>
+</ul>
+
+<h3>夜叉神峠⇔鳳凰三山</h3>
+<p>鳳凰三山付近の稜線では、天候に恵まれれば、絶景を眺めながら楽しいジョギングや山歩きが楽しめます。
+御座石温泉から登るよりも距離が長いので、少し体力が必要かもしれません。</p>
+<ul>
+  <li>2018/07/21: 夜叉神峠P→苺平(2:00)→57→薬師岳(2:57)→17→観音岳(3:14)→36→地蔵岳（賽の河原）(3:50-4:01)
+                  →37→観音岳(4:38)→19→薬師岳(4:57)→44→苺平(5:41)→1:06→夜叉神峠P(6:47)</li>
+</ul>
+
+<h3>竹宇駒ケ岳神社⇔甲斐駒ケ岳</h3>
+<p>黒戸尾根を通って甲斐駒ケ岳へ往復します。標高差が2000m以上あり、鎖場も多く、体力と技術が必要なコースです。</p>
+<ul>
+  <li>2018/07/14: 竹宇駒ケ岳神社→甲斐駒ケ岳(4:07-24)→2:41→竹宇駒ケ岳神社(7:05)</li>
+</ul>
+
+
+<h3>御座石温泉⇔鳳凰三山</h3>
+<p>御座石温泉から鳳凰小屋経由で観音岳へ登り、薬師岳を往復し、地蔵岳を経由して鳳凰小屋まで下り、御座石温泉に戻ってくるルートです。</p>
+<p>天気が良ければ、絶景を望みながら2800m程度の稜線でジョグが楽しめます。標高差があるのでそれなりの体力が必要です。御座石温泉までの林道は荒れていることが多く、最低地上高の高い四輪駆動車でないと苦労するかもしれません。</p>
+<ul>
+  <li>2015/09/12: 御座石温泉→燕頭山(1:31)→54→鳳凰小屋(2:25)→53→観音岳(3:18)→16→薬師岳(3:34)→36→地蔵岳(4:10)→24→鳳凰小屋(4:34)→1:25→御座石温泉(5:59)</li>
+</ul>
+
+<h3>温泉など</h3>
+<dl>
+  <dt>西山温泉　湯島の湯</dt>
+  <dd>素朴な雰囲気の町営日帰り温泉施設。550円。少し硫黄臭がして湯の華もまじっているぬるめの心地よい温泉だった。
+  建物内に洗い場があり、風呂は露天風呂だけだった。100円玉が返却されるロッカーもあった。(2019/9/14)</dd>
+
+  <dt>天笑閤</dt>
+  <dd>リーズナブルな値段の日帰り温泉施設。ぬるい源泉風呂が良かった。少しだけど、地元の野菜や果物を売っていた。(2018/7/21)</dd>
+
+  <dt>むかわの湯</dt>
+  <dd>日帰り温泉施設。大広間があってのんびりできる。地元の野菜や果物なども買える。マッサージ施設もあった。(2015/9/12)</dd>
+</dl>
+
+</div>
+
+<!-- フッター -->
+<div id="footer">
+<p id="back-top">
+	<a href="#top"><span></span>先頭に戻る</a>
+</p>
+Copyright (C) 1997-2019 フリふら All rights reserved<br/>
+クライミングやトレジョグは自分自身の責任でおこなってください。
+このホーム・ページの製作者は一切の責任を負いません。
+</div>
+
+
+</div>
+</body>
+</html>

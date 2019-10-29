@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="shift_jis"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="ja" lang="ja">
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-55134782-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-55134782-2');
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+
+<title>ふらふら日記</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.dropdown.js"></script>
+
+<script>
+$(document).ready(function() {
+
+    $('#navi').dropdown({
+    	animateDirection	: 'x',
+    	textClass     : 'arrow',
+		textOpenClass : 'open'
+    });
+
+	// hide #back-top first
+	$('#back-top').hide();
+	
+	// fade in #back-top
+	$(function () {
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 100) {
+				$('#back-top').fadeIn();
+			} else {
+				$('#back-top').fadeOut();
+			}
+		});
+
+		// scroll body to 0px on click
+		$('#back-top a').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+	});
+});
+
+</script>
+</head>
+
+<body id="top">
+<div id="site-box">
+
+<div id="header">
+<h1 id="logo"><span id="freeClimbing">Free Climbing</span><span id="hurahura">日記</span></h1>
+
+<!--%start%navi-->
+<ul id="navi">
+    <li><a href="index.html">トップページ</a>
+        <ul>
+            <li><a href="v2Mail.html">お問い合わせなど</a></li>
+        </ul>
+    </li>
+    <li><a href="v2Nikki2019.html">ふらふら日記</a>
+        <ul>
+            <li><a href="v2Nikki2018.html">2018年の日記</a></li>
+            <li><a href="v2Nikki2017.html">2017年の日記</a></li>
+            <li><a href="v2Nikki2016.html">2016年の日記</a></li>
+            <li><a href="v2NikkiLink.html">目的別リンク集</a></li>
+        </ul>
+    </li>
+    <li><a href="#">エリア紹介</a>
+        <ul>
+            <li><a href="v2Ooyama.html">大山</a></li>
+            <li><a href="v2NisiTanzawa.html">西丹沢</a></li>
+            <li><a href="v2HigasiTanzawa.html">東丹沢</a></li>
+            <li><a href="v2Izu.html">伊豆</a></li>
+            <li><a href="v2Hakone.html">箱根</a></li>
+            <li><a href="v2Hujisan.html">富士山周辺</a></li>
+            <li><a href="v2Okutitibu.html">奥秩父</a></li>
+            <li><a href="v2Yatugatake.html">八ヶ岳</a></li>
+            <li><a href="v2MinamiAlps.html">南アルプス</a></li>
+            <li><a href="v2Dousi.html">道志</a></li>
+        </ul>
+    </li>
+    <li><a href="v2TrailJog2019.html">トレジョグ</a>
+        <ul>
+            <li><a href="v2TrailJog2018.html">2018年</a></li>
+            <li><a href="v2TrailJog2017.html">2017年</a></li>
+            <li><a href="v2TrailJog2016.html">2016年</a></li>
+        </ul>
+    </li>
+    <li class="last-child"><a href="http://www6.plala.or.jp/hurahuranikki/index_old.html">昔のふらふら日記</a></li>
+</ul>
+<!--%end%navi-->
+
+</div>
+
+
+<!-- 本文 -->
+<div id="main">
+<h4>&nbsp;</h4> <!-- blockを終わりにする方法があればそれを使うこと -->
+
+
+<h2>箱根</h2>
+<p>観光地で温泉も豊富です。</p>
+
+<h3>桃源台→湖尻峠→金時山→足柄峠→21世紀の森→山北駅</h3>
+<p>
+桃源台から芦ノ湖の周りの道を深良水門まで行き、石畳の道を湖尻峠へ登り、尾根道を通って金時山へ登る。
+金時山から足柄峠へ下り、足柄万葉公園まで少し車道を歩き、万葉公園から矢倉岳方面へ進む。
+洒水の滝を目指して、セントラル広場を過ぎ、21世紀の森を過ぎ、テレビ塔手前から右手の山道に入って下ると、やがて道は林道になり、洒水の滝の駐車場の所にでる。
+あとは街中を山北駅まで進む。</p>
+<p>金時山までの尾根道からは、富士山や芦ノ湖や大涌谷などの景色が眺められる場所が多く、楽しくジョグできた。
+金時山から足柄峠までは、最初梯子の連続で、梯子が終わると直ぐに林道だった。
+足柄万葉公園から洒水の滝までは、平たんな部分が多く走りやすいけれど、暗い森と、舗装道路や林道の部分が多く、個人的にはあまり楽しくなかった。
+</p>
+<ul>
+  <li>2018/05/06: 桃源台→深良水門(0:15)→13→湖尻峠(0:28)→1:11→丸岳(1:39)→47→金時山(2:26)→40→足柄峠(3:06-11)→43→矢倉岳分岐(3:54)→1:06→洒水の滝P(5:00)→17→山北駅(5:17)</li>
+</ul>
+
+<h3>推定鎌倉古道　箱根湯本駅→浅間山→芦之湯→箱根峠→（推定鎌倉古道）→三島駅</h3>
+<p>箱根湯本駅から国道1号線を進み、橋を渡って10mほどの左側に湯坂路の入り口がある。
+最初は少し荒れているけれど、しばらく登るとトレイルの幅は広がり、気分の良い緩い登りが浅間山まで続く。
+鷹巣山を過ぎ、1号線の湯坂路入口に出て、1号線のそばの道を精進池まで進む。
+お玉ヶ池のトレイルを経て、箱根旧街道の石畳に入り、元箱根まで下る。<br/><br/>
+芦川入口のバス停を過ぎた所で右折し、住宅街を抜けて、旧街道の石畳に入る。
+1号線に合流したら、1号線を箱根峠まで進み、旧街道入口方面への道に右折して入る。
+旧街道入口を過ぎ、別荘地の中をNo.C27まで進むと、推定鎌倉古道の標識がある。<br/><br/>
+ここから山神社までずっと下りのトレイルが続く。ここからはほとんどが畑の中の舗装された道となる。
+元山中関所跡付近を過ぎ、標識にしたがって右に曲がる。
+後はテキトーに三島駅を目指す。スマホでグーグルマップなどが使えると安心だ。
+新幹線ホーム側に行く方が時間的には近い。
+</p>
+<ul>
+  <li>2018/04/08: 箱根湯本駅→浅間山(1:16)→1:41→箱根峠(2:57)→23→推定鎌倉古道入口(3:20)→34→山神社(3:54)→58→三島駅(4:52)</li>
+</ul>
+
+<h3>箱根湯本駅→浅間山→元箱根→湖尻峠→岩波駅</h3>
+<p>最初は少し荒れていますが、浅間山まで良く整備された緩い登りが続きます。
+湯坂道入口から六道地蔵まで国道1号線沿いをいきます。
+箱根外輪山は走りやすい部分が多く、富士山と芦ノ湖の景色も楽しめる場所が多いです。
+湖尻峠から岩波駅までは、ほとんどが歩道のない車道です。
+</p>
+<ul>
+  <li>2018/01/13: 箱根湯本駅→浅間山(1:19)→元箱根(2:45)→道の駅箱根峠(3:03)→三国山(4:48)→湖尻峠(5:11)→44→岩波駅(5:55)</li>
+</ul>
+
+<h3>足柄駅→金時山→明神ヶ岳→明星ヶ岳→塔ノ峰→箱根湯本駅</h3>
+<p>足柄駅から円通寺の傍を通ってギャツビー・ゴルフクラブまで舗装道路を歩きます。
+ゴルフクラブから林道歩きになり、足柄峠からの道が左手から合流した後は金時山への急な登りが続きます。
+金時山で展望を楽しんだ後は、火打石岳、明神ヶ岳、明星ヶ岳、塔ノ峰を通って箱根湯本駅まで下ります。</p>
+<p>金時山への登りは、最後が梯子の連続で急登です。金時山から箱根湯本駅までは基本的には下りですが、アップダウンが連続し、それなりに疲れます。</p>
+<ul>
+  <li>2017/04/16(日):　足柄駅→金時山(1:25-39)→1:22→明神ヶ岳(3:01)→35→明星ヶ岳(3:36)→1:04→箱根湯本(4:40)</li>
+</ul>
+
+<h3>湯河原駅→南郷山→幕山→城山→湯河原駅</h3>
+<p>湯河原駅から五郎神社経由で南郷山へ登り、「自鑑水」を経由して幕山へ行き、幕山梅林へ下る。沢沿いの道を「しとどの窟」へ登り、城山を経由して湯河原駅に戻ってくる。</p>
+<p>走って楽しい部分が少なく、トレジョグとしてはイマイチに感じました。コースが自在に取れ、エスケープしやすく、冬に暖かいのはよい。城山からの眺めはすばらしい。<br>
+南郷山から小道地蔵寺屋敷堂跡を往復する部分を付け加えることもできる。南郷山から直接林道へ下るのではなく、小道地蔵寺屋敷堂跡方面へ少し進んでから「自鑑水」を経由して幕山を目指す方が走りやすい。</p>
+<ul>
+  <li>2014/1/6(月)と14(火)　にトレジョグ。</li>
+</ul>
+
+<h3>芦ノ湖海賊船乗り場付近→三国山→湖尻峠→芦ノ湖西岸→海賊船乗り場付近</h3>
+<p>海賊船乗り場付近の駐車場を出発し、箱根の外輪山をジョグし、芦ノ湖西岸を通って戻ってくる。<br>
+累積標高差が少ないので楽だと思います。コース後半の芦ノ湖岸の砂浜は静かでよかった。</p>
+<ul>
+  <li>2013/8/3(土):　3:15程度</li></ul>
+
+<h3>仙石バス停→金時山→明神ヶ岳→明星ヶ岳→塔ノ峰→箱根湯本</h3>
+<p>公時神社から金時山へ登り、火打石岳、明神ヶ岳、明星ヶ岳、塔ノ峰を通って箱根湯本駅まで下ります。<br>
+金時山から箱根湯本まではアップダウンが続き、それなりにしんどかった。金時山付近を除けば、そんなに人は多くなかった。</p>
+<ul>
+  <li>2012/08/04(土):　仙石バス停→金時山(52)→1:16→明神ヶ岳(2:08)→明星ヶ岳→塔ノ峰→箱根湯本(3:55)</li>
+  <li>2012/07/16(月):　4:22</li>
+  <li>2011/10/11(火):　仙石バス停→金時山(37)→1:12→明神ヶ岳(1:49)→明星ヶ岳→塔ノ峰→箱根湯本駅(3:43)</li>
+</ul>
+
+
+</div>
+
+<!-- フッター -->
+<div id="footer">
+<p id="back-top">
+	<a href="#top"><span></span>先頭に戻る</a>
+</p>
+Copyright (C) 1997-2018 フリふら All rights reserved<br/>
+クライミングやトレジョグは自分自身の責任でおこなってください。
+このホーム・ページの製作者は一切の責任を負いません。
+</div>
+
+
+</div>
+</body>
+</html>

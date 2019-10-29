@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="shift_jis"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="ja" lang="ja">
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-55134782-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-55134782-2');
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+
+<title>ふらふら日記</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.dropdown.js"></script>
+
+<script>
+$(document).ready(function() {
+
+    $('#navi').dropdown({
+    	animateDirection	: 'x',
+    	textClass     : 'arrow',
+		textOpenClass : 'open'
+    });
+
+	// hide #back-top first
+	$('#back-top').hide();
+	
+	// fade in #back-top
+	$(function () {
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 100) {
+				$('#back-top').fadeIn();
+			} else {
+				$('#back-top').fadeOut();
+			}
+		});
+
+		// scroll body to 0px on click
+		$('#back-top a').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+	});
+});
+
+</script>
+</head>
+
+<body id="top">
+<div id="site-box">
+
+<div id="header">
+<h1 id="logo"><span id="freeClimbing">Free Climbing</span><span id="hurahura">日記</span></h1>
+
+<!--%start%navi-->
+<ul id="navi">
+    <li><a href="index.html">トップページ</a>
+        <ul>
+            <li><a href="v2Mail.html">お問い合わせなど</a></li>
+        </ul>
+    </li>
+    <li><a href="v2Nikki2019.html">ふらふら日記</a>
+        <ul>
+            <li><a href="v2Nikki2018.html">2018年の日記</a></li>
+            <li><a href="v2Nikki2017.html">2017年の日記</a></li>
+            <li><a href="v2Nikki2016.html">2016年の日記</a></li>
+            <li><a href="v2NikkiLink.html">目的別リンク集</a></li>
+        </ul>
+    </li>
+    <li><a href="#">エリア紹介</a>
+        <ul>
+            <li><a href="v2Ooyama.html">大山</a></li>
+            <li><a href="v2NisiTanzawa.html">西丹沢</a></li>
+            <li><a href="v2HigasiTanzawa.html">東丹沢</a></li>
+            <li><a href="v2Izu.html">伊豆</a></li>
+            <li><a href="v2Hakone.html">箱根</a></li>
+            <li><a href="v2Hujisan.html">富士山周辺</a></li>
+            <li><a href="v2Okutitibu.html">奥秩父</a></li>
+            <li><a href="v2Yatugatake.html">八ヶ岳</a></li>
+            <li><a href="v2MinamiAlps.html">南アルプス</a></li>
+            <li><a href="v2Dousi.html">道志</a></li>
+        </ul>
+    </li>
+    <li><a href="v2TrailJog2019.html">トレジョグ</a>
+        <ul>
+            <li><a href="v2TrailJog2018.html">2018年</a></li>
+            <li><a href="v2TrailJog2017.html">2017年</a></li>
+            <li><a href="v2TrailJog2016.html">2016年</a></li>
+        </ul>
+    </li>
+    <li class="last-child"><a href="http://www6.plala.or.jp/hurahuranikki/index_old.html">昔のふらふら日記</a></li>
+</ul>
+<!--%end%navi-->
+
+</div>
+
+
+<!-- 本文 -->
+<div id="main">
+<h3>&nbsp;</h3> <!-- blockを終わりにする方法があればそれを使うこと -->
+
+
+<h2>富士山周辺</h2>
+<p>富士山は最高の避暑地です。</p>
+
+<h3>道の駅朝霧高原→毛無山→端足峠→竜ヶ岳→割石峠→道の駅朝霧高原</h3>
+<p>道の駅朝霧高原を出発し、毛無山へ登り、雨ヶ岳、端足峠、竜ヶ岳と尾根道を縦走し、石仏コースで本栖湖の登山口へ下山し、東海自然歩道を通って道の駅朝霧高原まで戻ってくる周回コースです。</p>
+<p>尾根道の縦走路からは、右手に富士山、左手に南アルプスの山々が展望できる場所が多く、楽しくジョグできる場所が多かった。
+帰りの東海自然歩道は暗い場所が多く、国道139号線を走る車の音がうるさい場所もあり、個人的にはあまり楽しくなかった。</p>
+<ul>
+  <li>2018年5月12日(土): 道の駅朝霧高原→毛無山登山口ゲート(0:33)→1:31→毛無山(2:04-12)→43→雨ヶ岳(2:55-3:02)→24→端足峠(3:26)
+→27→竜ヶ岳(3:53)→29→登山口(4:22)→割石峠(5:23)→1:01→端足峠分岐(5:55)→43→道の駅朝霧高原(6:38)</li>
+</ul>
+
+<h3>御殿場口新五合目→幕岩→宝永山→御殿場口新五合目</h3>
+<p>林間の平坦な道に始まり、森林限界を超えて砂礫の砂場みたいな道を登り、大砂走りを下るという変化に富んだ眺めの良い半日コースです。</p>
+<p>真夏にお勧めの最高の避暑地です。頂上まで登らなくても富士山は楽しめます。ただ、天候が悪化すると急に厳しさが増すと思われるので、天候の変化には気をつけてください。</p>
+<ul>
+  <li>2015年8月9日(日): 御殿場口新五合目→幕岩(0:32)→51→御殿庭(1:23)→34→第一火口(1:57)→32→宝永山(2:29)→34→御殿場口新五合目(3:03)</li>
+</ul>
+
+<h3>河口湖自然生活館⇔新道峠⇔鬼ヶ岳</h3>
+<p>河口湖自然生活館の広い駐車場から新道峠まで登り、鬼ヶ岳まで往復するコースです。新道峠と鬼ヶ岳の間は登り下りはあるけれど、走りやすいトレイルが続いています。</p>
+<p>天気がよければ、鬼ヶ岳の頂上からは、甲斐駒や鳳凰三山、南アルプスの三千メートルの山並みが屏風のように見渡せます。振り返ると大きな富士山も見えます。</p>
+<ul>
+  <li>2015年10月24日(土): 河口湖自然生活館P→新道峠(1:21)→50→大石峠(2:11)→32→節刀ヶ岳(2:43)→25→鬼ヶ岳(3:08-3:32)→16→節刀ヶ岳分岐(3:48)→22→大石峠(4:10)→37→新道峠(4:47)→36→河口湖自然生活館P(5:23)</li></ul>
+
+<h3>精進湖⇔女坂峠⇔鬼ヶ岳</h3>
+<p>精進湖から女坂峠を経て鬼ヶ岳まで往復するコースです。尾根上の道は小さなアップダウンが続く比較的走りやすい道でした。天気がよければ富士山がきれいに見えると思いますが、私がいったときにはガスがでて富士山はほとんど見えませんでした。</p>
+<ul>
+  <li>2015年10月31日(土): 精進湖P→女坂峠(36)→1:07→王岳(1:43)→58→鬼ヶ岳(2:41-50)→52→王岳(3:42)→57→女坂峠(4:39)→14→精進湖P(4:53)</li></ul>
+
+<h3>長池親水公園⇔石割山⇔御正体山</h3>
+<p>観光客などで朝早くからにぎわっている長池親水公園の駐車場から石割山経由で御正体山まで往復するコースです。石割山と御正体山の間は笹薮が深い部分もあって少し藪山の雰囲気でした。石割山付近はハイカーが多かった。</p>
+<ul>
+  <li>10月18日(日): 長池親水公園→大平山下の稜線→石割山(1:12)→35→石割山分岐(1:47)→56→御正体山(2:43-2:56)→47→石割山分岐(3:43)→33→石割山(4:16)→30→大平山(4:46)→長池親水公園(5:15？)</li></ul>
+
+<h3>温泉など</h3>
+<dl>
+  <dt>石割の湯</dt><dd>山中湖近くの日帰り温泉施設。合宿の人たちなどで混雑していることもある。</dd>
+  <dt>露天風呂天水</dt><dd>河口湖近くの日帰り温泉施設。鍵付きロッカーが100円だった。</dd>
+  <dt>山田ホテル</dt><dd>精進湖畔の昔のホテルみたいな所で温泉に入れます。800円くらいだったと思います。露天風呂もありました。</dd>
+</dl>
+
+
+</div>
+
+<!-- フッター -->
+<div id="footer">
+<p id="back-top">
+	<a href="#top"><span></span>先頭に戻る</a>
+</p>
+Copyright (C) 1997-2018 フリふら All rights reserved<br/>
+クライミングやトレジョグは自分自身の責任でおこなってください。
+このホーム・ページの製作者は一切の責任を負いません。
+</div>
+
+
+</div>
+</body>
+</html>
