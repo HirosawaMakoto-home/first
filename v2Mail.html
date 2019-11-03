@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="shift_jis"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="ja" lang="ja">
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-55134782-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-55134782-2');
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+
+<title>ふらふら日記</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.dropdown.js"></script>
+
+<script>
+$(document).ready(function() {
+
+    $('#navi').dropdown({
+    	animateDirection	: 'x',
+    	textClass     : 'arrow',
+		textOpenClass : 'open'
+    });
+
+	// hide #back-top first
+	$('#back-top').hide();
+	
+	// fade in #back-top
+	$(function () {
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 100) {
+				$('#back-top').fadeIn();
+			} else {
+				$('#back-top').fadeOut();
+			}
+		});
+
+		// scroll body to 0px on click
+		$('#back-top a').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+	});
+});
+
+</script>
+</head>
+
+<body id="top">
+<div id="site-box">
+
+<div id="header">
+<h1 id="logo"><span id="freeClimbing">Free Climbing</span><span id="hurahura">日記</span></h1>
+
+<!--%start%navi-->
+<ul id="navi">
+    <li><a href="index.html">トップページ</a>
+        <ul>
+            <li><a href="v2Mail.html">お問い合わせなど</a></li>
+        </ul>
+    </li>
+    <li><a href="v2Nikki2019.html">ふらふら日記</a>
+        <ul>
+            <li><a href="v2Nikki2018.html">2018年の日記</a></li>
+            <li><a href="v2Nikki2017.html">2017年の日記</a></li>
+            <li><a href="v2Nikki2016.html">2016年の日記</a></li>
+            <li><a href="v2NikkiLink.html">目的別リンク集</a></li>
+        </ul>
+    </li>
+    <li><a href="#">エリア紹介</a>
+        <ul>
+            <li><a href="v2Ooyama.html">大山</a></li>
+            <li><a href="v2NisiTanzawa.html">西丹沢</a></li>
+            <li><a href="v2HigasiTanzawa.html">東丹沢</a></li>
+            <li><a href="v2Izu.html">伊豆</a></li>
+            <li><a href="v2Hakone.html">箱根</a></li>
+            <li><a href="v2Hujisan.html">富士山周辺</a></li>
+            <li><a href="v2Okutitibu.html">奥秩父</a></li>
+            <li><a href="v2Yatugatake.html">八ヶ岳</a></li>
+            <li><a href="v2MinamiAlps.html">南アルプス</a></li>
+            <li><a href="v2Dousi.html">道志</a></li>
+        </ul>
+    </li>
+    <li><a href="v2TrailJog2019.html">トレジョグ</a>
+        <ul>
+            <li><a href="v2TrailJog2018.html">2018年</a></li>
+            <li><a href="v2TrailJog2017.html">2017年</a></li>
+            <li><a href="v2TrailJog2016.html">2016年</a></li>
+        </ul>
+    </li>
+    <li class="last-child"><a href="http://www6.plala.or.jp/hurahuranikki/index_old.html">昔のふらふら日記</a></li>
+</ul>
+<!--%end%navi-->
+
+</div>
+
+<div id="main">
+<h4>&nbsp;</h4> <!-- blockを終わりにする方法があればそれを使うこと -->
+
+
+<!-- 本文 -->
+
+<h2>お問い合わせなど</h2>
+
+<h3>メール</h3>
+<p>ウェブページを見ていただいた方からメールをいただけるのを楽しみにしています。 
+質問、感想、ご要望など、なんでも気軽にメールしてください。
+メール・アドレス自動取得による迷惑メールを防止するため、 下記のメール・アドレスを半角で入力して送信してください。
+お手数をおかけして申し訳ありません。
+メールをお待ちしています。
+</p>
+<p>ｈｕｒｉｈｕｒａｎｉｋｋｉ＠ｙａｈｏｏ．ｃｏ．ｊｐ</p>
+
+<h3>リンクしてくださる方へ</h3>
+<p>私のウェブページはリンク・フリーです。<br>
+特に断りなく自由にリンクしていただいて構いませんが、メールにてご連絡いただければ嬉しく思います。
+</p>
+
+</div>
+<!-- フッター -->
+<div id="footer">
+<p id="back-top">
+	<a href="#top"><span></span>先頭に戻る</a>
+</p>
+Copyright (C) 1997-2016 フリふら All rights reserved<br/>
+クライミングやトレジョグは自分自身の責任でおこなってください。
+このホーム・ページの製作者は一切の責任を負いません。
+</div>
+
+
+</div>
+</body>
+</html>
